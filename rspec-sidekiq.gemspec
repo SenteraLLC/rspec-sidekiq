@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rspec-core", "~> 3.0"
   s.add_dependency "rspec-mocks", "~> 3.0"
   s.add_dependency "rspec-expectations", "~> 3.0"
-  s.add_dependency "sidekiq", ">= 5", "<= 8"
+  s.add_dependency "sidekiq", ">= 5", "< 9"
 
   s.add_development_dependency "pry"
   s.add_development_dependency "pry-doc"
